@@ -7,3 +7,9 @@ h1 {
 p {
     color: red;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color:lightyellow;
+    padding:5px;
+}
