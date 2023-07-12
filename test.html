@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .tv-guide {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .time-column {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="tv-guide">
+    <h1>TV Guide</h1>
+    <table>
+      <tr>
+        <th class="time-column">Time</th>
+        <th>Channel 1</th>
+        <th>Channel 2</th>
+        <th>Channel 3</th>
+        <!-- Add more channel columns as needed -->
+      </tr>
+      <tr>
+        <td class="time-column">12:00 AM</td>
+        <td>Show 1</td>
+        <td>Show 4</td>
+        <td>Show 7</td>
+        <!-- Add show information for each channel -->
+      </tr>
+      <tr>
+        <td class="time-column">12:30 AM</td>
+        <td>Show 2</td>
+        <td>Show 5</td>
+        <td>Show 8</td>
+      </tr>
+      <tr>
+        <td class="time-column">1:00 AM</td>
+        <td>Show 3</td>
+        <td>Show 6</td>
+        <td>Show 9</td>
+      </tr>
+      <!-- Continue adding rows for each time slot -->
+    </table>
+  </div>
+</body>
+</html>
